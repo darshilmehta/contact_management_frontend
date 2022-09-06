@@ -1,0 +1,28 @@
+.register-container .responsive-img {
+  width: 450px;
+  height: 500px;
+  margin-top: 6rem;
+}
+
+.register-container {
+  overflow-y: hidden;
+}
+
+.register-container .responsive-form {
+  display: flex;
+  justify-content: center;
+}
+
+.register-container .form-container {
+  width: 500px;
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+}
+@media screen and (max-width: 991px){
+  .register-container .imgContainer{
+    display: none;
+  }
+  .register-container .responsive-form{
+    width: auto;
+  }
+}

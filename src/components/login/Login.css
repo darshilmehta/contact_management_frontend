@@ -1,0 +1,24 @@
+.login-container .responsive-img {
+  width: 450px;
+  height: 500px;
+  margin-top: 6rem;
+}
+
+.login-container .responsive-form {
+  display: flex;
+  justify-content: center;
+}
+
+.login-container .form-container {
+  width: 500px;
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+}
+@media screen and (max-width: 991px){
+    .login-container .imgContainer{
+      display: none;
+    }
+    .login-container .responsive-form{
+      width: auto;
+    }
+}

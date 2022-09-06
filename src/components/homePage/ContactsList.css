@@ -1,0 +1,12 @@
+.contactsList {
+    margin: 20px;
+    display: "grid";
+    grid-template-columns: 1fr 1fr !important;
+}
+
+@media screen and (min-width: 850px){
+    .contactsList {
+        margin: 10px;
+        display: grid;
+    }
+}

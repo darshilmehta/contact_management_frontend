@@ -1,0 +1,16 @@
+.customForm {
+    width: 50% !important;
+    margin-left: 25%;
+}
+
+.cardHeader {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 900px){
+    .customForm {
+        width: 90% !important;
+        margin-left: 5%;
+    }
+}
